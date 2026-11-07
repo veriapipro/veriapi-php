@@ -1,0 +1,33 @@
+{
+    "name": "veriapi/sdk",
+    "description": "VeriApi.Pro resmî PHP istemcisi: döviz, hava, namaz, deprem, il/ilçe",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "veriapi",
+        "turkiye",
+        "doviz",
+        "hava",
+        "namaz",
+        "deprem"
+    ],
+    "homepage": "https://veriapi.pro",
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "VeriApi\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/calistir.php"
+    },
+    "support": {
+        "issues": "https://github.com/veriapipro/veriapi-php/issues",
+        "source": "https://github.com/veriapipro/veriapi-php",
+        "docs": "https://veriapi.pro/dokumantasyon"
+    }
+}
